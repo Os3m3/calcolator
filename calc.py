@@ -3,8 +3,8 @@ operator = input("Enter the Operator: ")
 secondNumber = float(input("Enter the Second Number: "))
 
 
-if operator == "-":
-    print("The Answer is:", firstNumber - secondNumber)
+if operator == "/":
+    print("The Answer is:", firstNumber / secondNumber)
 
 else:
     print("Please Try Again Sad :(")

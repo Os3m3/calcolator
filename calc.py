@@ -21,7 +21,8 @@ elif operator == "^":
 elif operator == "abs":
     print("The Answer is:", abs(firstNumber + secondNumber))
 
-
+elif operator == "%":
+    print("The Answer is:", firstNumber % secondNumber)
 
 else:
     print("Please Try Again Sad :(")
